@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm list:*)",
+      "Bash(npx tsc *)",
+      "PowerShell(cd \"C:\\\\Users\\\\s_pal\\\\proyectos\\\\kira-virtual-industry-assistant\"; npx tsc --noEmit 2>&1 | Select-String \"geo|KiraMap|SurfaceMap|Underground|AssetPin|AssetList|AssetDetail|MineSelector\" | ForEach-Object { $_.Line })",
+      "Bash(Test-Path \"C:\\\\Users\\\\s_pal\\\\proyectos\\\\kira-virtual-industry-assistant\\\\app\\\\\\(dashboard\\)\\\\manuals\\\\page.tsx\")"
+    ]
+  }
+}
